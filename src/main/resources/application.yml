@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: Project Management System
+
+  datasource:
+    username: postgres
+    password: admin
+    url: jdbc:postgresql://localhost:5432/project-management
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
